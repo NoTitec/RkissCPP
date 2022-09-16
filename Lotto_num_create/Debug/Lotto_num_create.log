@@ -1,0 +1,3 @@
+﻿  Lotto_num_create.cpp
+F:\Rokiss_C++\Lotto_num_create\Lotto_num_create.cpp(30,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lotto_num_create.vcxproj -> F:\Rokiss_C++\Lotto_num_create\Debug\Lotto_num_create.exe

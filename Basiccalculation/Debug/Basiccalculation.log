@@ -1,0 +1,3 @@
+﻿  Basiccalculation.cpp
+F:\Rokiss_C++\Basiccalculation\Basiccalculation.cpp(47,10): warning C4101: 'is': unreferenced local variable
+  Basiccalculation.vcxproj -> F:\Rokiss_C++\Basiccalculation\Debug\Basiccalculation.exe

@@ -1,0 +1,3 @@
+﻿  Rock_siser_paper.cpp
+F:\Rokiss_C++\Rock_siser_paper\Rock_siser_paper.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Rock_siser_paper.vcxproj -> F:\Rokiss_C++\Rock_siser_paper\Debug\Rock_siser_paper.exe

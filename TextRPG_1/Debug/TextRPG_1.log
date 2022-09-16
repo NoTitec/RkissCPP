@@ -1,0 +1,3 @@
+﻿  TextRPG_1.cpp
+F:\Rokiss_C++\TextRPG_1\TextRPG_1.cpp(45,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TextRPG_1.vcxproj -> F:\Rokiss_C++\TextRPG_1\Debug\TextRPG_1.exe
