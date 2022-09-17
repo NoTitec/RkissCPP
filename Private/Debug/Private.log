@@ -1,0 +1,3 @@
+﻿  Private.cpp
+F:\RokissCPP\Private\Private.cpp(83,9): warning C4101: 'car': unreferenced local variable
+  Private.vcxproj -> F:\RokissCPP\Private\Debug\Private.exe
