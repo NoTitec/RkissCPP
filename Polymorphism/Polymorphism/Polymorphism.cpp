@@ -14,7 +14,7 @@ using namespace std;
 
 //동적 바인딩을 원하면 가상함수를 사용해야 한다.!!!!
 
-//virtual table 생성 정적보다 아주약간 느려짐
+//virtual table 생성 정적보다 아주약간 느려짐(virtual table로 이동을 한번 해야하기 때문)
 
 // 순수 가상 함수: 구현없이 인터페이스만 전달
 class Player
@@ -68,7 +68,7 @@ public:
 void MovePlayer(Player* player) {// 정적 바인딩시 이함수 하나라 자식 클래스도 이거로 호출
     //player 포인터 타고가면 시작주소는 virtual table 주소
     //이를 타고가서 어떤 virtual 함수 호출해야할지 알아냄
-    // 어떤 객체인지 virtual 주소 알아내는가?-> 생성자에서 지정함
+    // 어떤 객체인지 virtual 주소 알아내는가?-> 생성자 선처리 영역에서 지정함
     player->VMove();
     player->VDie();
 }
@@ -78,7 +78,8 @@ int main()
     //Player p;
     //p.Move();
     
-    Knight k;
+    Knight k;// night 클래스를 생성시 player 생성자-> night생성자 순으로 호출된다
+    //night 포인터를 쫓아가면 player포인터도 들고있다
     //k.Move();
     //MovePlayer(&p);
     //MovePlayer(&k);// 플레이어는 기사다는 거짓이라 오류뜸
